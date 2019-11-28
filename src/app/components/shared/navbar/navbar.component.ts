@@ -15,6 +15,7 @@ export class NavbarComponent implements OnInit {
   searchMovie( term:string){
 
     this.router.navigate(['/search',term])
+   
 
     console.log(term)
   }

@@ -20,12 +20,23 @@ export class MoviesComponent implements OnInit {
 
   constructor(private moviesService: MoviesService,
                private router:Router ) {
+                 
+    this.getInfo();
   }
   ngOnInit() {
-   this.movies = this.moviesService.getMovies()
+
+/*    this.movies = this.moviesService.getMovies()
    console.log(this.total)
     console.log(this.movies)
-    
+     */
+
+  }
+
+  getInfo(){
+    this.movies = this.moviesService.getMovies()
+    console.log(this.total)
+     console.log(this.movies)
+     
 
   }
   seeMovie( idx:number){

@@ -45,10 +45,10 @@ body {
 	background-color: white;
 	margin-right: 10%;
 }
-.componentsPosition{
+/* .componentsPosition{
 	display: flex;
 	flex-direction: row-reverse;
-}
+} */
 .cartModule{
 	width: 15%;
 }
@@ -62,5 +62,6 @@ body {
 
 .cartModule{
 
-	margin-left: 5%;
+	margin-left: 20%;
+	opacity: 0.75;
 }

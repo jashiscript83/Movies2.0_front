@@ -22,12 +22,29 @@
         <input class="form-control mr-sm-2" type="text" placeholder="Search" (keyup)="searchMovie(searchText.value)" #searchText>
         <button (click)="searchMovie(searchText.value)" class="btn btn-outline-primary my-2 my-sm-0" type="button">Search</button>
       </form>
-      <button style="width: 10%;" type="button" class="btn btn-outline-primary btn-block">
+      <button  data-target=".bd-example-modal-sm" data-toggle="modal" style="width: 10%;" type="button" class="btn btn-outline-primary btn-block">
         Confirm & Pay
       </button>
       
     </div>
   </nav>
+
+<div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-sm" role="document">
+    <div class="modal-content">
+      <div style="margin: 2%;" >
+          <p>  Choose your payment method  </p> 
+          <a style="margin: 2%;" href="https://i.pinimg.com/originals/87/f5/3e/87f53ebb29a3f33d3bd799acad476a88.jpg">Visa</a>
+          <a  style="margin: 2%;" href="https://vignette.wikia.nocookie.net/lossimpson/images/1/14/Ralph_Wiggum.png/revision/latest/scale-to-width-down/284?cb=20150426070659&path-prefix=es">Mastercard</a>
+    
+    
+
+      </div>
+     
+    </div>
+  </div>
+</div>
+
      
            
 	

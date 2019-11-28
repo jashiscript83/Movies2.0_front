@@ -14,7 +14,7 @@ const APP_ROUTES: Routes = [
 { path: 'about', component: AboutComponent },
 { path: 'movie/:id', component: MovieComponent },
 { path: 'search/:term', component: SearchComponent },
-{path: '**', pathMatch: 'full',  redirectTo:'' }
+{path: 'movies', pathMatch: 'full',  redirectTo:'movies' }
 
 ];
 
