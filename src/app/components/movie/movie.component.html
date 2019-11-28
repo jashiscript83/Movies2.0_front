@@ -1,0 +1,21 @@
+<h1 style="color: brown;">{{movie.title}}</h1><small style="color: brown;">{{movie.year}}</small>
+<hr>
+<div class="col">
+<div class="col-md-4">
+        <img  src="{{movie.url}}" class="img-fluid" [alt]="movie.title">
+
+        <a [routerLink]="['/movies']"   style="color: brown; margin: 1%" class="btn btn-outline-danger btn-block">Back</a>
+
+        </div>
+
+        <div class="col-md-8">
+            <h3 style="color: brown;">{{movie.director}}</h3>
+            <hr>
+            <p>
+
+                
+
+            </p>
+
+        </div>
+</div>
